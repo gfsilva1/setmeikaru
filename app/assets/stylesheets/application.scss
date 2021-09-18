@@ -10,4 +10,10 @@
 
 // Your CSS partials
 @import "components/index";
+@import "components/navbar";
+@import "components/cards";
 @import "pages/index";
+
+h1 {
+  font-size: 1.4em;
+}
