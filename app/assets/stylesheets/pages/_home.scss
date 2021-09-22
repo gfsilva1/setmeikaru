@@ -1,22 +1,62 @@
 // Specific CSS for your home-page
 .home-banner {
-    background-image: url(https://images.unsplash.com/photo-1545259742-b4fd8fea67e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80);
+    background-image: url(https://images.unsplash.com/photo-1436473849883-bb3464c23e93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-size: cover;
     background-position: 80%;
     height: 100vh;
-    color: #F4F4F4;
+    color: #f4f4f471;
     text-align: left;
-    padding-top: 20vh;
+    padding-top: 10vh;
 
 }
 
-.ciclo {
-    background-image: url(projetos.png);
-    background-size: cover;
-    background-position: 80%;
-    height: 100vh;
-    color: #F4F4F4;
-    text-align: left;
-    padding-top: 20vh;
+
+.texto-letreiro {
+  padding-top: 60vh;
+}
+
+.button {
+
+  border-radius: 7px;
+  border: none;
+  color: $blue;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+  color:rgba(255, 255, 255, 0.356);
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.avatar {
+  width: 50px;
 
 }

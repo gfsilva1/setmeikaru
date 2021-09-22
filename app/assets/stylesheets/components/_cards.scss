@@ -36,18 +36,18 @@
         position: relative;
         background: $blue;
         display: flex;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
         z-index: 1;
         transform: translateY(100px);
 
         .content {
-          opacity: 0.4;
+          opacity: 1;
           transform: 0.5s;
 
           img {
-            width: 100px;
-            height: 100px;
+            width: 70px;
+            height: 70px;
           }
 
           h3 {
@@ -56,7 +56,7 @@
             padding: 0;
             color: white;
             text-shadow: blanchedalmond;
-            text-align: center;
+            text-align: left;
             font-size: 1.4em;
           }
         }
@@ -64,7 +64,7 @@
 
       .face.face2 {
         position: relative;
-        background: $blue;
+        background: $light-gray;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -82,16 +82,17 @@
 
           a {
             margin: 15px 0 0;
-            display: inline-block;
+            display: flex;
+            text-align: center;
             text-decoration: none;
             font-weight: 900;
-            color: white;
+            color:$blue;
             padding: 5px;
-            border: 1px solid $green;
+
           }
 
           a:hover {
-            background: $green;
+
             color: $gray;
           }
         }
@@ -107,7 +108,7 @@
         border-bottom-right-radius: 0;
 
         .content {
-          opacity: 1;
+          opacity: 0.4;
 
           h3 {
             color: white;
