@@ -3,19 +3,18 @@
   padding: 0;
   min-height: 70vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+
+
 
   .container-home {
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
+
+    position: center;
+
     // margin-left: 200px;
     // margin-top: -250px;
 
     .card {
-      position: relative;
+      position: right;
       cursor: pointer;
       background: none;
       border: none;
@@ -33,10 +32,10 @@
       }
 
       .face.face1 {
-        position: relative;
+        position: center;
         background: $blue;
         display: flex;
-        justify-content: right;
+        justify-content: space-evenly;
         align-items: center;
         z-index: 1;
         transform: translateY(100px);
