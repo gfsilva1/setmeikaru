@@ -8,7 +8,7 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import { loadDynamicBannerText } from '../components/banner';
-import { obras } from '../components/banner';
+
 
 
 Rails.start()
