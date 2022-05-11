@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   root to: 'pages#home'
-  get 'sobre', to: 'sobre#sobre'
+  get 'sobre', to: 'pages#sobre'
   get 'servicos', to: 'pages#servicos'
   get 'contato', to: 'pages#contato'
   get 'obras', to: 'pages#obras'
