@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.voltar {
+  text-decoration: none;
+  text-align: center;
+}
+
 .obras {
   margin: 0;
   padding: 0;
@@ -15,7 +20,7 @@
   padding: 30px 10px;
   font-family: 'DM Sans', sans-serif;
   transition: background .4s ease-in;
-  background-color: #c394f8;
+  background-color: #CECBCE;
 
   &.blue {
     background-color: #428aa6;

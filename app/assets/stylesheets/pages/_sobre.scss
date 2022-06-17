@@ -1,5 +1,18 @@
 // Specific CSS for your home-page
 
+.content {
+  h1 {
+    color: white;
+  }
+
+  h2 {
+    color:white;
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
 .tooltips {
   display: flex;
   justify-content: center;
