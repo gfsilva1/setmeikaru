@@ -17,6 +17,10 @@ Turbolinks.start()
 Turbo.start()
 ActiveStorage.start()
 
+$('input').on('change', function () {
+  $('body').toggleClass('blue');
+});
+
 
 // ----------------------------------------------------
 // Note(lewagon): ABOVE IS RAILS DEFAULT CONFIGURATION
