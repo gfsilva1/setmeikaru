@@ -2,15 +2,6 @@
   <h2>Envie sua necessidade</h2>
 </div>
 
-<div class="container">
-    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-    Nome:<br>
-    <input type="text" name="name"><br>
-    E-mail:<br>
-    <input type="text" name="mail"><br>
-    Comment:<br>
-    <input type="text" name="comment" size="50"><br><br>
-    <input type="submit" value="Send">
-    <input type="reset" value="Reset">
-    </form>
-</div>
+<%= turbo_frame_tag "first_turbo_frame" do %>
+  <%= link_to "Sobre", sobre_path, class: "btn btn--primary" %>
+<% end %>

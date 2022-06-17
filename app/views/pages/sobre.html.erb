@@ -1,25 +1,65 @@
-<div class="home-banner">
-  <div class="description">
-    <h1>A SET AIR AR-CONDICIONADO</h1>
-      <p> É uma empresa voltada a soluções em sistemas de ar-condicionado,
-      ventilação e exaustão mecânica com experiência de mais de 10 anos no
-      atendimento de obras corporativas e residenciais.
-      </p>
-    <h1>OBJETIVO</h1>
-      <p>Seu objetivo é viabilizar projetos com soluções climáticas sustentáveis,
-      visando conforto térmico, bem-estar, qualidade de vida e otimização dos recursos.
-      </p>
-    <h1>MISSÃO​</h1>
-      <p>Nossa missão é garantir a satisfação do cliente, oferecendo serviços com alto
-      padrão de qualidade, prezando pelo respeito e ética profissional.
-      </p>
-    <h1>VISÃO​</h1>
-      <p>Ser referência no mercado de conforto térmico, reconhecida pela alta qualidade nos serviços prestados, gerando orgulho, admiração e inspiração para os colaboradores, fornecedores e clientes. Através do sistema de AR-CONDICIONADO é possível
-      obter o conforto térmico com sistemas mais eficientes e   sustentáveis.​
-      </p>
-    <h1>VALORES​</h1>
-      <p>Ética, transparência, comprometimento, fidelidade, profissionalismo, integridade, inovação e
-      sustentabilidade.
-      </p>
+  <div class="home-banner">
+    <img class="avatar"src="https://cdn-icons-png.flaticon.com/512/204/204065.png" alt="">
+    <a href="/sobre" class="button">Sobre</a>
+    <img class="avatar"src="https://cdn-icons-png.flaticon.com/512/1086/1086544.png" alt="">
+    <a href="/servicos" class="button">Orçamento Online</a>
+    <img class="avatar"src="https://cdn-icons-png.flaticon.com/512/15/15895.png" alt="">
+    <a href="https://api.whatsapp.com/send?phone=+551195815-7128" class="button">Contato</a>
+    <img class="avatar"src="https://cdn-icons-png.flaticon.com/512/972/972998.png" alt="">
+    <a href="/obras" class="button">Obras</a>
   </div>
+
+<%= turbo_frame_tag "first_turbo_frame" do %>
+  <div class="container">
+    <div class="card-form">
+      <div class="container-home">
+        <div class="card ">
+          <div class="face face1" >
+            <div class="content">
+              <div class="text-center">
+                    <h1>A SET AIR AR-CONDICIONADO</h1>
+                      <p> É uma empresa voltada a soluções em sistemas de ar-condicionado,
+                      ventilação e exaustão mecânica com experiência de mais de 10 anos no
+                      atendimento de obras corporativas e residenciais.
+                      </p>
+              </div>
+            </div>
+          </div>
+          <div class="face face2" >
+            <div class="content">
+              <div class="text-center">
+                    <h1>OBJETIVO</h1>
+                      <p>Seu objetivo é viabilizar projetos com soluções climáticas sustentáveis,
+                      visando conforto térmico, bem-estar, qualidade de vida e otimização dos recursos.
+                      </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card ">
+          <div class="face face1" >
+            <div class="content">
+              <div class="text-center">
+                    <h1>VISÃO​</h1>
+                      <p>Ser referência no mercado de conforto térmico, reconhecida pela alta qualidade nos serviços prestados, gerando orgulho, admiração e inspiração para os colaboradores, fornecedores e clientes. Através do sistema de ar-condicionado é possível
+                      obter o conforto térmico com sistemas mais eficientes e sustentáveis.​
+                      </p>
+              </div>
+            </div>
+          </div>
+          <div class="face face2" >
+            <div class="content">
+              <div class="text-center">
+                    <h1>VALORES​</h1>
+                      <p>Ética, transparência, comprometimento, fidelidade, profissionalismo, integridade, inovação e
+                      sustentabilidade.
+                      </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>
 </div>

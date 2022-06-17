@@ -72,11 +72,13 @@
         transform: translateY(-100px);
 
         .content {
-
+          h1{
+            color:black;
+          }
           p {
             margin: 0;
             padding: 0;
-            color: $orange;
+            color: black;
           }
 
           a {

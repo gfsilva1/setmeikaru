@@ -7,12 +7,14 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
+import * as Turbo from "@hotwired/turbo"
 import { loadDynamicBannerText } from '../components/banner';
 
 
 
 Rails.start()
 Turbolinks.start()
+Turbo.start()
 ActiveStorage.start()
 
 
