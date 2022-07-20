@@ -8,6 +8,14 @@
   text-decoration: none;
   text-align: center;
   font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.voltar img {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  border-radius: 50%
 }
 
 .obras {
